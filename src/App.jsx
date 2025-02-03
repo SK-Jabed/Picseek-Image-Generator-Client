@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Picseek Image Generator</h1>
+      <h1>Picseek Image Generator Pro</h1>
     </>
   );
 }
