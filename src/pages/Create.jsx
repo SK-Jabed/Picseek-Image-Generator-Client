@@ -51,6 +51,7 @@ const Create = () => {
     const form = e.target;
     const prompt = form.prompt.value;
     const category = form.category.value;
+    
     // validation starts
     if (!category) {
       Swal.fire(
