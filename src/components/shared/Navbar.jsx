@@ -3,7 +3,6 @@ import { BiHome } from "react-icons/bi";
 import { CiGrid31 } from "react-icons/ci";
 import { FcGoogle } from "react-icons/fc";
 import { GiBrain } from "react-icons/gi";
-
 import { Link, NavLink } from "react-router";
 import { AuthContext } from "../../provider/AuthProvider";
 import { CgLogOut } from "react-icons/cg";
