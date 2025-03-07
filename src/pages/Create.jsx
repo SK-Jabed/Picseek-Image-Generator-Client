@@ -3,8 +3,6 @@ import PageTitle from "../components/shared/PageTitle";
 import { AuthContext } from "../provider/AuthProvider";
 import Swal from "sweetalert2";
 
-
-
 const Create = () => {
   const { user, login } = useContext(AuthContext);
   const options = [
