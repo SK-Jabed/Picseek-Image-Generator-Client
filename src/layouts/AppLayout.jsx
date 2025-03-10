@@ -1,7 +1,7 @@
+import { useContext } from "react";
 import { Outlet } from "react-router";
 import Navbar from "../components/shared/Navbar";
-import { AuthContext } from "../provider/AuthProvider";
-import { useContext } from "react";
+import { AuthContext } from "../providers/AuthProvider";
 import Marquee from "react-fast-marquee";
 
 const AppLayout = () => {

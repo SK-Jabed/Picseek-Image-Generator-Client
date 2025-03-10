@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import PageTitle from "../components/shared/PageTitle";
-import { AuthContext } from "../provider/AuthProvider";
+import { AuthContext } from "../providers/AuthProvider";
 import Swal from "sweetalert2";
 
 const Create = () => {
@@ -51,7 +51,7 @@ const Create = () => {
     const form = e.target;
     const prompt = form.prompt.value;
     const category = form.category.value;
-    
+
     // validation starts
     if (!category) {
       Swal.fire(
