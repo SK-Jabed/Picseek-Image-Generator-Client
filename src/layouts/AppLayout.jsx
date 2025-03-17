@@ -1,3 +1,4 @@
+import React from "react";
 import { useContext } from "react";
 import { Outlet } from "react-router";
 import Navbar from "../components/shared/Navbar";
