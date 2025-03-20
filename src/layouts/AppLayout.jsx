@@ -7,6 +7,7 @@ import Marquee from "react-fast-marquee";
 
 const AppLayout = () => {
   const { user } = useContext(AuthContext);
+
   return (
     <>
       {user && user?.email && (
@@ -19,6 +20,7 @@ const AppLayout = () => {
           PicSeek-AI
         </Marquee>
       )}
+
       <header className="bg-gradient-to-t lg:bg-gradient-to-l from-cyan-100 ">
         <nav className="md:w-11/12 mx-auto">
           <Navbar></Navbar>
