@@ -46,7 +46,7 @@ const Create = () => {
   };
 
   const validate = (prompt, category) => {
-    // validation starts
+    // Validation starts
     if (!category) {
       Swal.fire(
         "Select Category",
@@ -71,7 +71,7 @@ const Create = () => {
       );
       return false;
     }
-    //validation End
+    // Validation End
     return true;
   };
 
