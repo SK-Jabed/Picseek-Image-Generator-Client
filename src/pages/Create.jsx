@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import PageTitle from "../components/shared/PageTitle";
-import { AuthContext } from "../provider/AuthProvider";
+import { AuthContext } from "../providers/AuthProvider";
 import Swal from "sweetalert2";
 import axios from "axios";
 

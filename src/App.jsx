@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router";
-import AppLayout from "./Layout/AppLayout";
-import Home from "./Pages/Home";
-import Create from "./Pages/Create";
-import Creations from "./Pages/Creations";
-import SingleImage from "./Pages/SingleImage";
+import AppLayout from "./layouts/AppLayout";
+import Home from "./pages/Home";
+import Create from "./pages/Create";
+import Creations from "./pages/Creations";
+import SingleImage from "./pages/SingleImage";
 
 function App() {
   return (
