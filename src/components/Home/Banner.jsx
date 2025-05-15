@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = () => {
   return (
     <div className="hero bg-gradient-to-b lg:bg-gradient-to-l from-cyan-100 min-h-screen">

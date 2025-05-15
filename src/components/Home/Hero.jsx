@@ -18,7 +18,7 @@ const Hero = () => {
           repellendus eligendi corporis! Esse asperiores magni earum nihil
           aperiam, dicta est perferendis optio natus.
         </p>
-        <button className=" btn bn-primary"></button>
+        <button className="btn bn-primary"></button>
       </div>
     </div>
   );
