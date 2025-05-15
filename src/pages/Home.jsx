@@ -1,9 +1,9 @@
-import Banner from "../components/Home/Banner";
+import Banner from "../components/Home-components/Banner";
 
 const Home = () => {
   return (
     <div>
-      <Banner />
+      <Banner></Banner>
     </div>
   );
 };
