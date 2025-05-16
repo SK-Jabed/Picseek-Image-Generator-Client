@@ -1,15 +1,15 @@
 import { useContext } from "react";
 import PageTitle from "../components/shared/PageTitle";
 import { AuthContext } from "../providers/AuthProvider";
-import Swal from "sweetalert2";
 import axios from "axios";
+import Swal from "sweetalert2";
 
 const Create = () => {
   const { user, login } = useContext(AuthContext);
   const options = [
     "painting",
     "animated-image",
-    "walpaper",
+    "wallpaper",
     "poster",
     "digital-art",
     "realistic-image",
