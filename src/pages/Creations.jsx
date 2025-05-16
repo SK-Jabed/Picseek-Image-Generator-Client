@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 const Creations = () => {
   const [images, setImages] = useState([]);
+  
   useEffect(() => {
     fetch("http://localhost:5000/api/v1/image/all")
       .then((res) => res.json())
