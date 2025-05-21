@@ -1,4 +1,3 @@
-import React from "react";
 import { useContext } from "react";
 import { BiHome } from "react-icons/bi";
 import { CiGrid31 } from "react-icons/ci";
@@ -28,6 +27,7 @@ const Navbar = () => {
           <span className="text-cyan-600">AI</span>
         </Link>
       </div>
+
       <div className="flex-none ">
         <ul className="menu flex-1 flex-wrap justify-center menu-horizontal px-1 gap-1 lg:gap-5">
           <li>
