@@ -13,9 +13,7 @@ const Hero = () => {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cum
           nulla quod molestiae nostrum quibusdam expedita quaerat tempora
-          reprehenderit! Corrupti maiores delectus optio, voluptas illum iusto
-          dolor nihil vero, magnam laborum cumque numquam vel facilis quod
-          repellendus eligendi corporis!
+          reprehenderit!
         </p>
         <button className="btn bn-primary"></button>
       </div>
