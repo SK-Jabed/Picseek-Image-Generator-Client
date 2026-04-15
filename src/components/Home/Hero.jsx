@@ -11,9 +11,7 @@ const Hero = () => {
       <div className="max-w-xl">
         <h1>Lorem ipsum dolor sit amet.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cum
-          nulla quod molestiae nostrum quibusdam expedita quaerat tempora
-          reprehenderit!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reiciendis eveniet accusantium placeat non aspernatur eos nobis. Blanditiis molestiae omnis asperiores, molestias, praesentium culpa, unde repudiandae saepe adipisci quia magnam.
         </p>
         <button className="btn bn-primary"></button>
       </div>
